@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <input type="file" id="image-picker" accept=".jpg,.jpeg,.png">
+
+    <div class="images">
+        <div>原图：</div>
+        <img id="img-image"></img>
+        <hr>
+        <!-- 推荐在HTML或在js里设置canvas的width和height属性，在css里设置canvas宽高会导致图片模糊 -->
+        <div>canvas：</div>
+        <canvas id="canvas-image"></canvas>
+        <hr>
+        <div>div图片：</div>
+        <div id="div-image">
+            <div id="point"></div>
+        </div>
+    </div>
+</body>
+
+</html>
